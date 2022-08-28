@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24, 24, 32);
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: "Overpass", sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 1.5em 2em;
+    max-width: 400px;
+    background-color: rgba(40, 40, 70, 0.851);  
+    background-color: hsl(216, 19%, 15%);  
+    border-radius: 8px;
+}
+
+.rating-icon {
+    margin: 0.5em 0;
+    padding: 0.75em;    
+    background-color: hsla(212, 27%, 20%, 0.758);
+    border-radius: 50%;
+}
+
+.rating-selection {
+    margin: 0.5em 3em;
+    padding: 0.55em;    
+    background-color: hsla(212, 27%, 20%, 0.758);
+    border-radius: 50px;
+    color: rgb(235, 134, 39);
+    display: none;
+}
+
+.rating-header {
+    margin: 0.5em 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.rating-info {
+    margin: 1em 0;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-buttons {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-button {
+    margin: 0.5em 0;
+    width: 3em;
+    height: 3em;
+    background-color: hsla(212, 27%, 20%, 0.758);
+    border-radius: 50%;
+    color: rgba(172, 172, 172, 0.93);
+    border: none;
+}
+
+.rating-button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+.selected-rating-button {
+    background-color: rgba(172, 172, 172, 0.93);
+    color: white;
+}
+
+.rating-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 99%;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(255, 123, 0);
+}
